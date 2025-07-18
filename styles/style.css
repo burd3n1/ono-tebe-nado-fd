@@ -75,7 +75,7 @@ header{
     z-index: 5;
 }
 
-.grid__setka{
+.words{
     display: grid;
     grid-template-columns: repeat(3,1fr) ;
     grid-template-rows: 1fr 150px;
@@ -96,8 +96,9 @@ header{
 .third__word{
     display: flex;
     justify-content: end;
-    padding-right: 40px;
+    padding-right: 70px;
     padding-top: 40px;
+    font-size: 80px;
 }
 
 .text__description{
